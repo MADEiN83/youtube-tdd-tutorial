@@ -4,7 +4,9 @@
   "description": "todo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "jest --watchAll part1",
+    "test2": "jest --watchAll part2",
+    "test3": "jest --watchAll part3"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/MADEiN83/youtube-tdd-tutorial/issues"
   },
-  "homepage": "https://github.com/MADEiN83/youtube-tdd-tutorial#readme"
+  "homepage": "https://github.com/MADEiN83/youtube-tdd-tutorial#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5"
+  }
 }
